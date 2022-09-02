@@ -11,6 +11,12 @@
 		0A30488628C25830006354E5 /* ABMagicDeeplink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A30487B28C25830006354E5 /* ABMagicDeeplink.framework */; };
 		0A30488B28C25830006354E5 /* ABMagicDeeplinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30488A28C25830006354E5 /* ABMagicDeeplinkTests.swift */; };
 		0A30488C28C25830006354E5 /* ABMagicDeeplink.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A30487E28C25830006354E5 /* ABMagicDeeplink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A3048A528C2692B006354E5 /* ABMagicDeeplink_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30489628C26928006354E5 /* ABMagicDeeplink_ExampleApp.swift */; };
+		0A3048A628C2692B006354E5 /* ABMagicDeeplink_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30489628C26928006354E5 /* ABMagicDeeplink_ExampleApp.swift */; };
+		0A3048A728C2692B006354E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30489728C26928006354E5 /* ContentView.swift */; };
+		0A3048A828C2692B006354E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30489728C26928006354E5 /* ContentView.swift */; };
+		0A3048A928C2692B006354E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A30489828C2692B006354E5 /* Assets.xcassets */; };
+		0A3048AA28C2692B006354E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A30489828C2692B006354E5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		0A30487F28C25830006354E5 /* ABMagicDeeplink.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ABMagicDeeplink.docc; sourceTree = "<group>"; };
 		0A30488528C25830006354E5 /* ABMagicDeeplinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABMagicDeeplinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A30488A28C25830006354E5 /* ABMagicDeeplinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABMagicDeeplinkTests.swift; sourceTree = "<group>"; };
+		0A30489628C26928006354E5 /* ABMagicDeeplink_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABMagicDeeplink_ExampleApp.swift; sourceTree = "<group>"; };
+		0A30489728C26928006354E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A30489828C2692B006354E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A30489D28C2692B006354E5 /* ABMagicDeeplink-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABMagicDeeplink-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3048A228C2692B006354E5 /* ABMagicDeeplink-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABMagicDeeplink-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3048A428C2692B006354E5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A30489A28C2692B006354E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A30489F28C2692B006354E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +81,8 @@
 			children = (
 				0A30487D28C25830006354E5 /* ABMagicDeeplink */,
 				0A30488928C25830006354E5 /* ABMagicDeeplinkTests */,
+				0A30489528C26928006354E5 /* Shared */,
+				0A3048A328C2692B006354E5 /* macOS */,
 				0A30487C28C25830006354E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +92,8 @@
 			children = (
 				0A30487B28C25830006354E5 /* ABMagicDeeplink.framework */,
 				0A30488528C25830006354E5 /* ABMagicDeeplinkTests.xctest */,
+				0A30489D28C2692B006354E5 /* ABMagicDeeplink-Example.app */,
+				0A3048A228C2692B006354E5 /* ABMagicDeeplink-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +113,24 @@
 				0A30488A28C25830006354E5 /* ABMagicDeeplinkTests.swift */,
 			);
 			path = ABMagicDeeplinkTests;
+			sourceTree = "<group>";
+		};
+		0A30489528C26928006354E5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0A30489628C26928006354E5 /* ABMagicDeeplink_ExampleApp.swift */,
+				0A30489728C26928006354E5 /* ContentView.swift */,
+				0A30489828C2692B006354E5 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0A3048A328C2692B006354E5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A3048A428C2692B006354E5 /* macOS.entitlements */,
+			);
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +183,40 @@
 			productReference = 0A30488528C25830006354E5 /* ABMagicDeeplinkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0A30489C28C2692B006354E5 /* ABMagicDeeplink-Example (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3048AF28C2692B006354E5 /* Build configuration list for PBXNativeTarget "ABMagicDeeplink-Example (iOS)" */;
+			buildPhases = (
+				0A30489928C2692B006354E5 /* Sources */,
+				0A30489A28C2692B006354E5 /* Frameworks */,
+				0A30489B28C2692B006354E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABMagicDeeplink-Example (iOS)";
+			productName = "ABMagicDeeplink-Example (iOS)";
+			productReference = 0A30489D28C2692B006354E5 /* ABMagicDeeplink-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A3048A128C2692B006354E5 /* ABMagicDeeplink-Example (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A3048B028C2692B006354E5 /* Build configuration list for PBXNativeTarget "ABMagicDeeplink-Example (macOS)" */;
+			buildPhases = (
+				0A30489E28C2692B006354E5 /* Sources */,
+				0A30489F28C2692B006354E5 /* Frameworks */,
+				0A3048A028C2692B006354E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABMagicDeeplink-Example (macOS)";
+			productName = "ABMagicDeeplink-Example (macOS)";
+			productReference = 0A3048A228C2692B006354E5 /* ABMagicDeeplink-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +231,12 @@
 						CreatedOnToolsVersion = 13.3;
 					};
 					0A30488428C25830006354E5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0A30489C28C2692B006354E5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0A3048A128C2692B006354E5 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
@@ -168,6 +256,8 @@
 			targets = (
 				0A30487A28C25830006354E5 /* ABMagicDeeplink */,
 				0A30488428C25830006354E5 /* ABMagicDeeplinkTests */,
+				0A30489C28C2692B006354E5 /* ABMagicDeeplink-Example (iOS) */,
+				0A3048A128C2692B006354E5 /* ABMagicDeeplink-Example (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +277,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A30489B28C2692B006354E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3048A928C2692B006354E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A3048A028C2692B006354E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3048AA28C2692B006354E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +309,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A30488B28C25830006354E5 /* ABMagicDeeplinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A30489928C2692B006354E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3048A728C2692B006354E5 /* ContentView.swift in Sources */,
+				0A3048A528C2692B006354E5 /* ABMagicDeeplink_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A30489E28C2692B006354E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3048A828C2692B006354E5 /* ContentView.swift in Sources */,
+				0A3048A628C2692B006354E5 /* ABMagicDeeplink_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +545,117 @@
 			};
 			name = Release;
 		};
+		0A3048AB28C2692B006354E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albertsons.ABMagicDeeplink-Example";
+				PRODUCT_NAME = "ABMagicDeeplink-Example";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A3048AC28C2692B006354E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albertsons.ABMagicDeeplink-Example";
+				PRODUCT_NAME = "ABMagicDeeplink-Example";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A3048AD28C2692B006354E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albertsons.ABMagicDeeplink-Example";
+				PRODUCT_NAME = "ABMagicDeeplink-Example";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A3048AE28C2692B006354E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albertsons.ABMagicDeeplink-Example";
+				PRODUCT_NAME = "ABMagicDeeplink-Example";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +682,24 @@
 			buildConfigurations = (
 				0A30489328C25830006354E5 /* Debug */,
 				0A30489428C25830006354E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3048AF28C2692B006354E5 /* Build configuration list for PBXNativeTarget "ABMagicDeeplink-Example (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3048AB28C2692B006354E5 /* Debug */,
+				0A3048AC28C2692B006354E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A3048B028C2692B006354E5 /* Build configuration list for PBXNativeTarget "ABMagicDeeplink-Example (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A3048AD28C2692B006354E5 /* Debug */,
+				0A3048AE28C2692B006354E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
