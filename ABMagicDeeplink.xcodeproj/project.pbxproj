@@ -17,6 +17,7 @@
 		0A3048BF28C26A2B006354E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3048BD28C26A2B006354E5 /* Main.storyboard */; };
 		0A3048C128C26A2C006354E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3048C028C26A2C006354E5 /* Assets.xcassets */; };
 		0A3048C428C26A2C006354E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3048C228C26A2C006354E5 /* LaunchScreen.storyboard */; };
+		0A3048CB28C27324006354E5 /* DemoModuleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3048CA28C27324006354E5 /* DemoModuleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0A3048C028C26A2C006354E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3048C328C26A2C006354E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A3048C528C26A2C006354E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3048CA28C27324006354E5 /* DemoModuleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModuleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0A30487D28C25830006354E5 /* ABMagicDeeplink */ = {
 			isa = PBXGroup;
 			children = (
+				0A3048C928C27324006354E5 /* Classes */,
 				0A30487E28C25830006354E5 /* ABMagicDeeplink.h */,
 				0A30487F28C25830006354E5 /* ABMagicDeeplink.docc */,
 			);
@@ -120,6 +123,14 @@
 				0A3048C528C26A2C006354E5 /* Info.plist */,
 			);
 			path = "ABMagicDeeplink-Example";
+			sourceTree = "<group>";
+		};
+		0A3048C928C27324006354E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A3048CA28C27324006354E5 /* DemoModuleClass.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A30488028C25830006354E5 /* ABMagicDeeplink.docc in Sources */,
+				0A3048CB28C27324006354E5 /* DemoModuleClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +503,7 @@
 		0A30489328C25830006354E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -506,6 +519,7 @@
 		0A30489428C25830006354E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
