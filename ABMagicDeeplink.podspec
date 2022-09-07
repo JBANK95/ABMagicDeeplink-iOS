@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ABMagicDeeplink'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -15,13 +15,12 @@ Pod::Spec.new do |spec|
     limitations under the License.
     LICENSE
   }
-  spec.homepage     = 'https://github.com/kiransar/ABMagicDeeplink-iOS'
+  spec.homepage     = 'https://github.com/kiransar/ABMagicDeeplink-iOS.git'
   spec.authors      = { 'Kirankumar Sarvaiya' => 'ksarv05@safeway.com' }
   spec.summary      = 'A CocoaPods library written in Swift to implement magic deeplink.'
   spec.source       = { :git => 'https://github.com/kiransar/ABMagicDeeplink-iOS.git', :tag => "#{spec.version}" }
-  spec.source_files = 'ABMagicDeeplink/*'
+  spec.source_files = 'ABMagicDeeplink/Classes/*'
   spec.swift_version = "5.3"
   spec.ios.deployment_target = "9.0"
-  spec.requires_arc = true
-    spec.framework  = 'Foundation'
+  spec.static_framework = true
 end
