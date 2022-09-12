@@ -7,16 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A30488028C25830006354E5 /* ABMagicDeeplink.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0A30487F28C25830006354E5 /* ABMagicDeeplink.docc */; };
 		0A30488628C25830006354E5 /* ABMagicDeeplink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A30487B28C25830006354E5 /* ABMagicDeeplink.framework */; };
 		0A30488B28C25830006354E5 /* ABMagicDeeplinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A30488A28C25830006354E5 /* ABMagicDeeplinkTests.swift */; };
-		0A30488C28C25830006354E5 /* ABMagicDeeplink.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A30487E28C25830006354E5 /* ABMagicDeeplink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A3048B828C26A2B006354E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3048B728C26A2B006354E5 /* AppDelegate.swift */; };
-		0A3048BA28C26A2B006354E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3048B928C26A2B006354E5 /* SceneDelegate.swift */; };
-		0A3048BC28C26A2B006354E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3048BB28C26A2B006354E5 /* ViewController.swift */; };
-		0A3048BF28C26A2B006354E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3048BD28C26A2B006354E5 /* Main.storyboard */; };
-		0A3048C128C26A2C006354E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3048C028C26A2C006354E5 /* Assets.xcassets */; };
-		0A3048C428C26A2C006354E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3048C228C26A2C006354E5 /* LaunchScreen.storyboard */; };
 		0A3048CB28C27324006354E5 /* DemoModuleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3048CA28C27324006354E5 /* DemoModuleClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,18 +24,8 @@
 
 /* Begin PBXFileReference section */
 		0A30487B28C25830006354E5 /* ABMagicDeeplink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABMagicDeeplink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A30487E28C25830006354E5 /* ABMagicDeeplink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABMagicDeeplink.h; sourceTree = "<group>"; };
-		0A30487F28C25830006354E5 /* ABMagicDeeplink.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ABMagicDeeplink.docc; sourceTree = "<group>"; };
 		0A30488528C25830006354E5 /* ABMagicDeeplinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABMagicDeeplinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A30488A28C25830006354E5 /* ABMagicDeeplinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABMagicDeeplinkTests.swift; sourceTree = "<group>"; };
-		0A3048B528C26A2B006354E5 /* ABMagicDeeplink-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABMagicDeeplink-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A3048B728C26A2B006354E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A3048B928C26A2B006354E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A3048BB28C26A2B006354E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A3048BE28C26A2B006354E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A3048C028C26A2C006354E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A3048C328C26A2C006354E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0A3048C528C26A2C006354E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A3048CA28C27324006354E5 /* DemoModuleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModuleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,13 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A3048B228C26A2B006354E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +53,6 @@
 			children = (
 				0A30487D28C25830006354E5 /* ABMagicDeeplink */,
 				0A30488928C25830006354E5 /* ABMagicDeeplinkTests */,
-				0A3048B628C26A2B006354E5 /* ABMagicDeeplink-Example */,
 				0A30487C28C25830006354E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +62,6 @@
 			children = (
 				0A30487B28C25830006354E5 /* ABMagicDeeplink.framework */,
 				0A30488528C25830006354E5 /* ABMagicDeeplinkTests.xctest */,
-				0A3048B528C26A2B006354E5 /* ABMagicDeeplink-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				0A3048C928C27324006354E5 /* Classes */,
-				0A30487E28C25830006354E5 /* ABMagicDeeplink.h */,
-				0A30487F28C25830006354E5 /* ABMagicDeeplink.docc */,
 			);
 			path = ABMagicDeeplink;
 			sourceTree = "<group>";
@@ -109,20 +80,6 @@
 				0A30488A28C25830006354E5 /* ABMagicDeeplinkTests.swift */,
 			);
 			path = ABMagicDeeplinkTests;
-			sourceTree = "<group>";
-		};
-		0A3048B628C26A2B006354E5 /* ABMagicDeeplink-Example */ = {
-			isa = PBXGroup;
-			children = (
-				0A3048B728C26A2B006354E5 /* AppDelegate.swift */,
-				0A3048B928C26A2B006354E5 /* SceneDelegate.swift */,
-				0A3048BB28C26A2B006354E5 /* ViewController.swift */,
-				0A3048BD28C26A2B006354E5 /* Main.storyboard */,
-				0A3048C028C26A2C006354E5 /* Assets.xcassets */,
-				0A3048C228C26A2C006354E5 /* LaunchScreen.storyboard */,
-				0A3048C528C26A2C006354E5 /* Info.plist */,
-			);
-			path = "ABMagicDeeplink-Example";
 			sourceTree = "<group>";
 		};
 		0A3048C928C27324006354E5 /* Classes */ = {
@@ -140,7 +97,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A30488C28C25830006354E5 /* ABMagicDeeplink.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,23 +139,6 @@
 			productReference = 0A30488528C25830006354E5 /* ABMagicDeeplinkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0A3048B428C26A2B006354E5 /* ABMagicDeeplink-Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A3048C628C26A2C006354E5 /* Build configuration list for PBXNativeTarget "ABMagicDeeplink-Example" */;
-			buildPhases = (
-				0A3048B128C26A2B006354E5 /* Sources */,
-				0A3048B228C26A2B006354E5 /* Frameworks */,
-				0A3048B328C26A2B006354E5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ABMagicDeeplink-Example";
-			productName = "ABMagicDeeplink-Example";
-			productReference = 0A3048B528C26A2B006354E5 /* ABMagicDeeplink-Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,9 +153,6 @@
 						CreatedOnToolsVersion = 13.3;
 					};
 					0A30488428C25830006354E5 = {
-						CreatedOnToolsVersion = 13.3;
-					};
-					0A3048B428C26A2B006354E5 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
@@ -236,7 +172,6 @@
 			targets = (
 				0A30487A28C25830006354E5 /* ABMagicDeeplink */,
 				0A30488428C25830006354E5 /* ABMagicDeeplinkTests */,
-				0A3048B428C26A2B006354E5 /* ABMagicDeeplink-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -256,16 +191,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A3048B328C26A2B006354E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A3048C428C26A2C006354E5 /* LaunchScreen.storyboard in Resources */,
-				0A3048C128C26A2C006354E5 /* Assets.xcassets in Resources */,
-				0A3048BF28C26A2B006354E5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A30488028C25830006354E5 /* ABMagicDeeplink.docc in Sources */,
 				0A3048CB28C27324006354E5 /* DemoModuleClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,16 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A3048B128C26A2B006354E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A3048BC28C26A2B006354E5 /* ViewController.swift in Sources */,
-				0A3048B828C26A2B006354E5 /* AppDelegate.swift in Sources */,
-				0A3048BA28C26A2B006354E5 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -305,25 +219,6 @@
 			targetProxy = 0A30488728C25830006354E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0A3048BD28C26A2B006354E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A3048BE28C26A2B006354E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0A3048C228C26A2C006354E5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A3048C328C26A2C006354E5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A30488D28C25830006354E5 /* Debug */ = {
@@ -534,60 +429,6 @@
 			};
 			name = Release;
 		};
-		0A3048C728C26A2C006354E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ABMagicDeeplink-Example/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.albertsons.ABMagicDeeplink-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0A3048C828C26A2C006354E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ABMagicDeeplink-Example/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.albertsons.ABMagicDeeplink-Example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -614,15 +455,6 @@
 			buildConfigurations = (
 				0A30489328C25830006354E5 /* Debug */,
 				0A30489428C25830006354E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0A3048C628C26A2C006354E5 /* Build configuration list for PBXNativeTarget "ABMagicDeeplink-Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A3048C728C26A2C006354E5 /* Debug */,
-				0A3048C828C26A2C006354E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

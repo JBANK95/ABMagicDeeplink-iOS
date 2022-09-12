@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ABMagicDeeplink'
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.0'
   spec.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
